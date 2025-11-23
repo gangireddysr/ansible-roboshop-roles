@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-{{ env }}.purini.shop # mongodb-dev.purini.shop
+REDIS_HOST: redis-{{ env }}.purini.shop
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.purini.shop
+CART_HOST: cart.backend-alb-{{ env }}.purini.shop
+USER_HOST: user.backend-alb-{{ env }}.purini.shop
+RABBITMQ_HOST: rabbitmq-{{ env }}.purini.shop
+MYSQL_HOST: mysql-{{ env }}.purini.shop
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.purini.shop
+PAYMENT_HOST: payment.backend-alb-{{ env }}.purini.shop
