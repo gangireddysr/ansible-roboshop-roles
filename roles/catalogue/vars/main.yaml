@@ -1,4 +1,5 @@
 MONGODB_HOST: mongodb-{{ env }}.purini.shop
 
 
-env=dev
+vars:
+  env: dev
